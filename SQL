@@ -1,4 +1,3 @@
-##Banco de Dados com MySQL 💾
 Usando ALIAS e JOIN com três tabelas (customer, payment e address).
 
 SELECT
