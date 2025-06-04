@@ -1,2 +1,5 @@
 INSERT INTO language
-VALUES ('7', 'Portuguese', '2008-02-10 05:02:19')
+VALUES ('DEFAULT', 'Portuguese', '2008-02-10 05:02:19')
+
+Na tabela language.
+Esse codigo é pra adicionar uma linha com dados numa tabela onde eu deixei ser DEFAULT o primeiro pois é o padrão da tabela. Os outros dois dados eu que escrevi para serem adicionados
