@@ -1,0 +1,4 @@
+CREATE TABLE payment_backup AS
+SELECT * FROM payment
+
+Com esse codigo esta sendo feito uma nova tabela com o nome "payment_table" a partir da tabela payment.
