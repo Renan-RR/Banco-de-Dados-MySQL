@@ -1,4 +1,4 @@
-Usando ALIAS e JOIN com três tabelas (customer, payment e address).
+Usando ALIAS e JOIN com três tabelas (customer, payment e address)
 
 SELECT
     cus.customer_id,
