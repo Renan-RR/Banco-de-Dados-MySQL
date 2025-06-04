@@ -1,0 +1,5 @@
+DELETE FROM language
+WHERE language_id = 7;
+
+Na tabela language.
+Esse código remove a linha desejada com precisão pois coloquei o dado exato, que no caso é o número 7. 
