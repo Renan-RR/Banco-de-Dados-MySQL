@@ -1,0 +1,8 @@
+SELECT * 
+FROM payment 
+WHERE amount > (
+    SELECT AVG(amount)
+    FROM payment
+);
+
+Consulta que usa subquery no WHERE para retornar apenas os pagamentos com valor maior que a média geral calculada pela função AVG(amount).
