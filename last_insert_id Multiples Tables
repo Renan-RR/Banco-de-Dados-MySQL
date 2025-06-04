@@ -1,0 +1,9 @@
+INSERT INTO country
+VALUES
+	(DEFAULT, 'Brasil2', '2025-04-06 01:05:00');
+    
+INSERT INTO city
+VALUES
+	(DEFAULT, 'São Paulo2', last_insert_id(), '2025-04-06 01:06');
+
+Nesse código esta sendo inserindo em duas tabelas, country e city, dados novos e na segunda parte do código esta sendo usado um comando chamado "last_insert_id" que já chama a id mais nova lançada.
