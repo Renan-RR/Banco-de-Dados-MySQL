@@ -1,0 +1,7 @@
+UPDATE payment
+SET
+	amount = 15.99
+WHERE
+	payment_id = 1
+
+com esse código, esta sendo alterado para 15.99 quem tem o payment_id sendo 1. Esta sendo feito uma alteração precisa.
